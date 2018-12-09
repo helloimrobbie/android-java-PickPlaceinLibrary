@@ -28,25 +28,25 @@ Have a Nice Day.
 
 
 
-##How to Pick my Place in the Library ?
+## How to Pick my Place in the Library ?
 
 
 Show this example.
 
 
-##user language
+## user language
 java- Android Studio 3.2
 Web Server and my Application communication by JSON.
 
 
-##Before Using
+## Before Using
 Before Using, This Example First Setting php Server Environment.
 
 need some PHP Page, and Request & Response API
 
 
-##Server API Setting
-*ex) Show All Place State in my Virtual Library
+## Server API Setting
+* `ex) Show All Place State in my Virtual Library
 in - `XXXXXX/ShowList.php`
 Response JSON : 
 ```groovy
@@ -58,7 +58,7 @@ Response JSON :
     ]}
 ```
 
-*ex) Login my Virtual Server for Pick Place in Virtual Library
+* `ex) Login my Virtual Server for Pick Place in Virtual Library
 in - XXXXXX/Login.php
 Method POST.
 ID=myID
@@ -71,7 +71,7 @@ Response JSON:
     {"response":false}
     
     
-*ex) Pick Place Request.
+* `ex) Pick Place Request.
 in - XXXXXX/Pick.php
 Method POST
 ID=myID
@@ -84,12 +84,12 @@ Number= Want Pick Place Number. (ex) 2)
 [Failed]
   {"response":false,"errorcode":1}
   
-* what is Errorcode ? 
+* `what is Errorcode ? 
  Errorcode 1 : The user who sent this request already has a reserved place
  Errorcode 2 : this request Place already has a reserved place by Another user's Request
  
  
- *ex) Pick Out Place Request
+* `ex) Pick Out Place Request
  in - XXXXXX/PickOut.php
  Method POST 
  ID = myID
