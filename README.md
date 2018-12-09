@@ -73,8 +73,8 @@ ID=myID
 Number= Want Pick Place Number. (ex) 2)
 
 [Success]
-			.. // Some Action Add userData in SQL Place Table
-			{"response":True}
+	.. // Some Action Add userData in SQL Place Table
+	{"response":True}
 			
 [Failed]
   {"response":false,"errorcode":1}
